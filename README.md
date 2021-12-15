@@ -1,3 +1,6 @@
+** Helpful Links: **
+1. https://youtu.be/px2aSX02pqE
+
 ** COW explanations: **
 1. Comments: COW will not interpret anything other than the preset functions... But it is good practice to comment out lines with "//" and multiple ones with "/**/"
 2. Memory / Data Structure: COW is split up into memory blocks. COW also has a registry...
@@ -16,7 +19,7 @@
 11. OOM: Print value of current memory block to STDOUT as an integer.
 12. oom: Read an integer from STDIN and put it into the current memory block.
 
-ASCII Table:
+** ASCII Table: **
 
 Dec  Char                               Dec  Char       Dec  Char       Dec  Char
 ---------                               ---------       ---------       ----------
