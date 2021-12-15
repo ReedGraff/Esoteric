@@ -1,5 +1,6 @@
 ** Helpful Links: **
 1. https://youtu.be/px2aSX02pqE
+2. Run: BrainF Program.bf
 
 ** COW Functions: **
 1. > = increases memory pointer, or moves the pointer to the right 1 block.
@@ -10,6 +11,19 @@
 6. ] = if block currently pointed to's value is not zero, jump back to [
 7. , = like c getchar(). input 1 character.
 8. . = like c putchar(). print 1 character to the console
+
+
+** Tricks / Tools: **
+1. Addition: 
+ - input ([Memory Block Number]: Value) = [1]: Block_1, [2]: Block_2
+ - script = Block_1>Block_2[<+>-]
+ - output ([Memory Block Number]: Value) = [1]: Block_1 + Block_2, [2]: 0
+
+2. Copy: 
+ - input ([Memory Block Number]: Value) = [1]: Block_1, [2]: 0, [3]: 0
+ - script = Block_1[>+>+<<-]>>[<<+>>-]
+ - output ([Memory Block Number]: Value) = [1]: Block_1, [2]: Block_1, [3]: 0
+
 
 ** ASCII Table: **
 
