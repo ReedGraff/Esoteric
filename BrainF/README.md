@@ -1,6 +1,7 @@
 ** Helpful Links: **
 1. https://youtu.be/px2aSX02pqE
-2. Run: BrainF Program.bf
+2. https://esolangs.org/wiki/brainfuck_algorithms#Modulus_algorithm
+3. Run: BrainF Program.bf
 
 ** COW Functions: **
 1. > = increases memory pointer, or moves the pointer to the right 1 block.
